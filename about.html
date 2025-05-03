@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="9_QhsKleKTKts1AJwEtqJlAGKI3nmYqP1x8su9qL_9g">
+    <title>About Us</title>
+    <link rel="stylesheet" href="./CSS/about.css">
+    <link rel="stylesheet" href="./CSS/navStyle.css">
+    <link rel="stylesheet" href="./CSS/sidebar.css">
+    <link rel="shortcut icon" href="./Images/favicon.png" type="image/png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    
+</head>
+<body>
+    <nav class="big-nav">
+        <div>
+            <img src="./Images/appLogo (2).png">
+            <h2>Royalty Credit</h2>
+        </div>
+        
+        <div>
+            <ul>
+                <li id="dashboard">Dashboard</li>
+                <li id="profile">My Profile</li>
+                <li class='active' id="about">About Us</li>
+                <li id="logout"><button>Logout</button></li>
+            </ul>
+        </div>
+    </nav>
+
+    <nav class="small-nav">
+        <div class="menu-icon" id="menuIcon">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <div>
+            <img src="./Images/appLogo (2).png">
+            <h3>Royalty Credit</h3>
+        </div>
+        
+
+        <div class="side-bar" id="sidebar">
+            <div id="sidebar-header">
+                <h3>Royalty Credit</h3>
+            </div>
+
+            <div class="sidebar-content">
+                <div class="pages">
+                    <a id="s-dashboard" href="./dashboard.html"><span class="material-symbols-outlined">
+                        web_asset
+                        </span> Dashboard</a>
+                    <a id="s-profile" href="./profile.html"><span class="material-symbols-outlined">
+                        account_circle
+                        </span> Profile</a>
+                    <a id="s-about" href="about.html"><span class="material-symbols-outlined">
+                        page_footer
+                        </span> About Us</a>
+                </div>
+
+                <button id="s-logout">
+                    <span class="material-symbols-outlined">logout</span> 
+                    Logout
+                </button>
+                
+            </div>
+
+        </div>
+
+    </nav>
+
+    <main>
+        <header>
+            <h1>Welcome to Juli Sringar</h1>
+            <p class="tagline">Celebrating Trust, Rewarding Loyalty</p>
+        </header>
+
+        <section class="about-content">
+            <h2>About Us</h2>
+            <p>
+                At Juli Sringar, we believe in building long-lasting relationships with our customers by offering not just great products but also great rewards.  
+                Our journey started with a simple idea: <strong>to create a shopping experience where every purchase feels even more valuable.</strong>
+            </p>
+            <p>
+                With years of trust and dedication to quality, we have been a part of your celebrations, everyday essentials, and memorable moments.  
+                Today, we are excited to bring you an innovative way to say thank you — through our <strong>Customer Credit System</strong>.
+            </p>
+            <p>
+                Every eligible purchase you make earns you credits, which you can redeem for exciting discounts on your future shopping.  
+                It's our small way of showing gratitude for the big trust you place in us every day.
+            </p>
+            <p>
+                We promise to continue bringing you high-quality products — from ice creams to bangles, from cosmetics to everyday essentials — with even more reasons to shop and smile!
+            </p>
+            <p class="thank-you">
+                Thank you for being part of our family. Let’s grow and celebrate together!
+            </p>
+
+            <div class="mission-vision">
+                <div>
+                    <h3>Our Vision</h3>
+                    <p>To create a rewarding shopping experience where customers feel valued, every single time.</p>
+                </div>
+                <div>
+                    <h3>Our Mission</h3>
+                    <ul>
+                        <li>Deliver high-quality products at fair prices.</li>
+                        <li>Build meaningful customer relationships through our credit rewards system.</li>
+                        <li>Bring innovation to traditional shopping by combining trust with technology.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script type="module" src="./JS/firebase.js"></script>
+    <script type="module" src="./JS/about.js"></script>=
+    <script src="./JS/sidebar.js"></script>
+</body>
+</html>
