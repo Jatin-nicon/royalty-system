@@ -6,7 +6,7 @@ A complete **Royalty Points Management System** built using **Firebase**, HTML, 
 
 ## 🔗 Live Demo
 
-🌐 [Visit the App](https://royalty-system.web.app)
+🌐 [Visit the App](https://royalty-card-system-f9062.web.app/)
 
 ---
 
