@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Inter;
+}
+
+body {
+    background-color: #f0f0f0;
+    line-height: 1.6;
+}
+
+main {
+    margin: 30px 0px 0px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.search {
+    margin-bottom: 20px;
+}
+
+
+.search input {
+    height: 32px;
+    width: 400px;
+    border-radius: 12px;
+    border: 1px solid rgb(95, 95, 95);
+    padding-left: 10px;
+    
+}
+
+.search input:focus {
+    border:none;
+    outline: none;
+    box-shadow: 2px 2px 5px black ;
+}
+
+.search select {
+    height: 32px;
+    border-radius: 12px;
+}
+
+.search button {
+    height: 32px;
+    padding: 0px 10px;
+    border-radius: 12px;
+    border: none;
+    background-color: black;
+    color: white;
+}
+
+.search button:active {
+    scale:0.9;
+}
+
+th {
+    min-width: 200px;
+    padding: 0px 6px;
+    background-color: rgb(24, 25, 25);
+    color: white;
+}
+
+td {
+    text-align: center;
+    background-color: rgb(255, 191, 191);
+}
+
+tr button {
+    background-color: rgb(83, 83, 83);
+    padding: 5px;
+    width: 50px;
+    color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 2px 3px 5px rgb(70, 70, 70);
+}
+
+tr button:active {
+    scale:0.9;
+}
+
+@media (max-width: 767px) {
+    main {
+        margin-left: 10px;
+    }
+    .search input {
+        width: 200px;
+    }
+    td {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    th {
+        min-width: fit-content;
+    }
+
+    tr button {
+        width: unset;
+    }
+}

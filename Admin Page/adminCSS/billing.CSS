@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Inter;
+}
+
+body {
+    background-color: #f0f0f0;
+    line-height: 1.6;
+}
+
+main {
+    margin: 30px 0px 0px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.customer-data {
+    background: #fff;
+    padding: 15px 25px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+    width: 90%;
+    max-width: 600px;
+    font-size: 16px;
+}
+
+.item-input {
+    margin-top: 20px;
+    background: white;
+    padding: 15px 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 90%;
+    max-width: 700px;
+}
+
+.item-input label {
+    flex-direction: column;
+    min-width: 200px;
+    margin: 10px;
+}
+
+.item-input input,
+.item-input select {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.item-input button {
+    margin: 10px;
+    padding: 8px 20px;
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    transition: 0.2s;
+}
+
+.items {
+    margin-top: 30px;
+    width: 90%;
+    max-width: 700px;
+    border-collapse: collapse;
+}
+
+.items th,
+.items td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+tfoot {
+    background-color: #f5f5f5;
+}
+
+.item-list input {
+    width: 50%;
+}
+
+/* button added by JS in the bill sheet */
+#complete-purchase {
+    border:none;
+    background-color: rgb(46, 97, 46);
+    color:chartreuse;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px black;
+}
+
+#complete-purchase:active {
+    scale:0.9;
+}
+
+.back-btn {
+    display: inline-block;
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 8px 12px;
+    border-radius: 4px;
+    transition: background 0.3s;
+}
+  
+.back-btn:hover {
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
+  
+.hide {
+    display: none;
+}
+
+@media (max-width: 767px) {
+    .item-input {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .item-input label {
+        width: 100%;
+        display: block;
+    }
+
+    .item-input input {
+        width: 50%;
+    }
+
+    .items th,
+    .items td {
+        font-size: 14px;
+    }
+
+    tfoot input {
+        width: 50%;
+    }
+}
